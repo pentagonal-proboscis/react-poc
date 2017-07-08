@@ -1,0 +1,28 @@
+{
+  "name": "react-poc",
+  "description": "Web/UI layer application for Matt's POC",
+  "version": "0.0.1",
+  "author": "Matthew Tordoff",
+  "scripts": {
+      "build-dev": "webpack -d --progress",
+      "build": "webpack --progress"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "6.11.4",
+    "babel-loader": "6.2.4",
+    "babel-preset-es2015": "6.6.0",
+    "babel-preset-react": "6.5.0",
+    "babel-polyfill": "^6.13.0",
+    "webpack":"^1.13.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "dependencies": {
+    "apisauce": "^0.5.0",
+    "mk-ui": "0.0.34",
+    "react": "15.0.1",
+    "react-dom": "15.0.1",
+    "react-redux": "4.4.5",
+    "react-router": "^3.0.0"
+  }
+}
